@@ -1,0 +1,292 @@
+/* Resetleme işlemleri */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* İndex işlemler */
+
+.ind_container {
+  width: 100%;
+  height: 100%;
+}
+
+.midleft {
+  background-image: url("./Components/img/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 650px;
+  
+}
+
+.midright {
+  background-color:#F2D8E1;
+  height: 650px;
+}
+
+.rowindex {
+  height: 100%;
+}
+
+.img1 {
+  left: 7%;
+  bottom: 13%;
+}
+
+.card1 {
+  width: 30%;
+}
+
+.card2 {
+  width: 15%;
+}
+.img2 {
+ top: 70%;
+ right: 0%;
+  z-index: 99;
+}
+
+.text1{
+  margin-left: 65px;
+}
+
+.text2{
+  margin-left: 60px;
+}
+
+.text3{
+  font-size: 60px;
+}
+
+.text4 {
+  font-size: 24px;
+}
+
+/* Navbar İşlemler */
+
+.roundcontainer {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.roundcontainer:hover, .az:hover{
+  background-color:#E9E9E9;
+}
+
+.ndtext {
+  font-size: 10px;
+}
+
+.accountword {
+  width: 65px;
+  height: 65px;
+  border: #F24822 1px solid;
+  border-radius: 50%;
+  background-color: #F24822;
+  color: #F2F2F2;
+}
+
+.navword {
+  width: 24px;
+  height: 24px;
+  border: #F24822 1px solid;
+  border-radius: 50%;
+  background-color: #F24822;
+  color: #F2F2F2;
+}
+
+.dropdown1 {
+  width: 400px;
+  height: 600px;
+}
+
+.acctext1 {
+  font-size: 16px;
+}
+
+.acctext1 {
+  font-size: 14px;
+}
+
+.dropdowncont {
+  max-width: 360px;
+  max-height: 550px;
+}
+
+.fa {
+  font-size: 24px;
+}
+
+.nav_logo {
+  color: #E60023;
+}
+
+.navtext{
+  font-size: 16px;
+}
+
+
+
+.bell_list:hover {
+ background-color: rgb(238, 231, 231);
+}
+
+/* NavLoggedOut  */
+.nav_btn1 {
+ 
+  width: 70px;
+  height: 40px;
+  background-color: #E60023;
+}
+
+.nav_btn2 {
+  width: 80px;
+  height: 40px;
+  background-color: #E2E2E2;
+}
+
+.nav_btn1:hover {
+  background-color: #a2031b;
+}
+
+.nav_btn2:hover {
+  background-color: #c5c2c2;
+}
+
+.logged_out_link{
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.logged_out_link:hover {
+  text-decoration-line: underline;
+  
+}
+/* Pin sayfası  */
+
+.pin_body {
+  width: 100%;
+	height: 100%;
+  border-radius: 20px;
+}
+
+.pin_container {
+  max-width: 264px;
+  width: 100%;
+  
+}
+
+.pin_modal {
+  width: 100%;
+	height: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 99;
+	background-color: rgba(0, 0, 0, 0.3);
+	opacity: 0;
+	transition-duration: 0.3s;
+  border-radius: 20px
+}
+
+.pin_modal:hover {
+  opacity:1;
+}
+
+.pin_top {
+  width: 100%;
+	height: 15%;
+	position: fixed;
+	top: 7%;
+  right: 10%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.save_container {
+  width: 60px;
+  height: 35px;
+}
+
+.pin_bot {
+  width: 100%;
+	height: 15%;
+	bottom: 10%;
+  right: 7%;
+	display: flex;
+}
+
+.pin_img img {
+  width: 100%;
+	height: 100%;
+  border-radius: 20px;
+}
+
+.pin_bot_icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.x1x{
+  width: 100%;
+  height: 200px;
+}
+
+/* Profile Page */
+
+.pp_icon {
+  width: 120px;
+  height: 120px;
+  background-color: #F24822;
+  border-radius: 50%;
+  font-size: 60px;
+  color: #E2E2E2;
+}
+
+
+.pp_icon_conatiner {
+  cursor: pointer;
+}
+
+
+.pp_btn1 {
+  width: 77px;
+  height: 48px;
+  background-color: rgb(238, 231, 231);
+}
+
+.pp_btn2 {
+  width: 136px;
+  height: 48px;
+  background-color: rgb(238, 231, 231);
+}
+
+
+.pp_btn1:hover, .pp_btn2:hover , .pp_btn3:hover , .pp_btn4:hover, .pp_btn6:hover, .pp_btntwn:hover{
+  background-color: #E2E2E2;
+}
+
+
+.pp_btn5 {
+  background-color: #E60023;
+}
+
+.pp_btn5:hover{
+  background-color: #bf0420;
+}
+
+.pp_btn6{
+  width: 90px;
+  height: 48px;
+  background-color: rgb(238, 231, 231);
+}
+
+.pp_btntwn {
+  width: 48px;
+  height: 48px;
+}
