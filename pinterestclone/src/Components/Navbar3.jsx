@@ -70,7 +70,7 @@ export default function Navbar() {
               className="btn btn-outline-dark border-end-0 rounded-0 rounded-start-5"
               type="submit"
             >
-              <i class="fa-solid fa-magnifying-glass"></i>
+              <i className="fa-solid fa-magnifying-glass"></i>
             </button>
             <input
               className="form-control me-2 border-start-0 border-dark rounded-0 rounded-end-5"
@@ -101,36 +101,36 @@ export default function Navbar() {
                 </li>
                 <ul className="list-group p-3 mt-0">
                   <li className="list-group-item w-100 bell_list rounded-4 border-0">
-                    <div class="card-group d-block ">
-                      <div class="card-body d-flex row">
-                        <div class="col-9">
-                          <p class="card-text">
+                    <div className="card-group d-block ">
+                      <div className="card-body d-flex row">
+                        <div className="col-9">
+                          <p className="card-text">
                             Sizden ilham alan pinler <span>17s</span>
                           </p>
                         </div>
-                        <div class="col-3 d-flex">
-                          <i class="btn pin_bot_icon fa-solid fa-ellipsis border bg-white d-flex justify-content-center align-items-center"></i>
+                        <div className="col-3 d-flex">
+                          <i className="btn pin_bot_icon fa-solid fa-ellipsis border bg-white d-flex justify-content-center align-items-center"></i>
                         </div>
                       </div>
-                      <div class="d-flex row container g-0 mt-3">
-                        <div class="col">
+                      <div className="d-flex row container g-0 mt-3">
+                        <div className="col">
                           <img
                             src={"./img/Mauro_Icardi_Galatasaray_Besiktas.jpeg"}
-                            class="card-img object-fit-cover x1x rounded-start-4"
+                            className="card-img object-fit-cover x1x rounded-start-4"
                             alt="..."
                           />
                         </div>
-                        <div class="col">
+                        <div className="col">
                           <img
                             src={"./img/Mauro_Icardi_Galatasaray_Besiktas.jpeg"}
-                            class="card-img object-fit-cover x1x"
+                            className="card-img object-fit-cover x1x"
                             alt="..."
                           />
                         </div>
-                        <div class="col">
+                        <div className="col">
                           <img
                             src={"./img/Mauro_Icardi_Galatasaray_Besiktas.jpeg"}
-                            class="card-img object-fit-cover x1x rounded-end-4"
+                            className="card-img object-fit-cover x1x rounded-end-4"
                             alt="..."
                           />
                         </div>
@@ -159,12 +159,12 @@ export default function Navbar() {
                 <li>
                   <div className="d-flex container justify-content-between align-items-center">
                     <p className="m-auto">Gelen Kutusu</p>
-                    <i class="btn pin_bot_icon fa-solid fa-ellipsis border bg-white col-6 d-flex justify-content-center align-items-center"></i>
+                    <i className="btn pin_bot_icon fa-solid fa-ellipsis border bg-white col-6 d-flex justify-content-center align-items-center"></i>
                   </div>
                 </li>
                 <li>
                   <div className="d-flex container justify-content-start align-items-center">
-                    <button className="border-0"><i class="fa-solid fa-pen-to-square text-danger "></i></button>
+                    <button className="border-0"><i className="fa-solid fa-pen-to-square text-danger "></i></button>
                     <p className="m-auto ms-2">Yeni mesaj</p>
                   </div>
                 </li>
@@ -177,7 +177,7 @@ export default function Navbar() {
                       className="btn btn-outline-dark border-end-0 rounded-0 rounded-start-5"
                       type="submit"
                     >
-                      <i class="fa-solid fa-magnifying-glass"></i>
+                      <i className="fa-solid fa-magnifying-glass"></i>
                     </button>
                     <input
                       className="form-control me-2 border-start-0 border-dark rounded-0 rounded-end-5"
@@ -219,7 +219,7 @@ export default function Navbar() {
                     href="#"
                   >
                     <div className="col-3 accountword ">
-                      <h3 class="d-flex align-items-center justify-content-center h-100">
+                      <h3 className="d-flex align-items-center justify-content-center h-100">
                         B
                       </h3>
                     </div>
@@ -274,7 +274,7 @@ export default function Navbar() {
                     href=""
                   >
                     <b> Yardım alın </b>
-                    <i class="fa-solid fa-up-right-from-square"></i>
+                    <i className="fa-solid fa-up-right-from-square"></i>
                   </a>
                 </li>
                 <li className="ps-2 pe-2">
@@ -283,7 +283,7 @@ export default function Navbar() {
                     href=""
                   >
                     <b> Hizmet şartlarına göz at</b>
-                    <i class="fa-solid fa-up-right-from-square"></i>
+                    <i className="fa-solid fa-up-right-from-square"></i>
                   </a>
                 </li>
                 <li className="ps-2 pe-2">
@@ -292,7 +292,7 @@ export default function Navbar() {
                     href=""
                   >
                     <b> Gizlilik politikasına göz at</b>
-                    <i class="fa-solid fa-up-right-from-square"></i>
+                    <i className="fa-solid fa-up-right-from-square"></i>
                   </a>
                 </li>
                 <li className="ps-2 pe-2">
@@ -301,7 +301,7 @@ export default function Navbar() {
                     href=""
                   >
                     <b> Beta test kullanıcısı olun</b>
-                    <i class="fa-solid fa-up-right-from-square"></i>
+                    <i className="fa-solid fa-up-right-from-square"></i>
                   </a>
                 </li>
                 <li className="ps-2 pe-2">

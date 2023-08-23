@@ -14,8 +14,8 @@ export default function Pinpage() {
             <div className="pin_bot row position-absolute">
               <div className="col-7">asdas</div>
               <div className="col-5 row justify-content-between">
-                <i class="btn pin_bot_icon fa-sharp fa-solid fa-arrow-up-from-bracket border bg-white col-6 d-flex justify-content-center align-items-center"></i>
-                <i class="btn pin_bot_icon fa-solid fa-ellipsis border bg-white col-6 d-flex justify-content-center align-items-center"></i>
+                <i className="btn pin_bot_icon fa-sharp fa-solid fa-arrow-up-from-bracket border bg-white col-6 d-flex justify-content-center align-items-center"></i>
+                <i className="btn pin_bot_icon fa-solid fa-ellipsis border bg-white col-6 d-flex justify-content-center align-items-center"></i>
               </div>
             </div>
           </div>
