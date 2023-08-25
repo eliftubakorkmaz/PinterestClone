@@ -128,7 +128,9 @@
   font-size: 16px;
 }
 
-
+.navsearch1 {
+  background-color: #E2E2E2;
+}
 
 .bell_list:hover {
  background-color: rgb(238, 231, 231);
@@ -289,4 +291,117 @@
 .pp_btntwn {
   width: 48px;
   height: 48px;
+}
+
+/* Create Pin */
+
+.create_pin_maincont {
+  background-color: #EFEFEF;
+  height: 850px;
+}
+
+.create_pin_container {
+  width: 880px;
+  height: 720px;
+  background-color: #FFFFFF;
+}
+
+.create_pin_dd {
+  width: 330px;
+}
+
+.cpdd_btn {
+  width: 236px;
+  height: 40px;
+}
+
+.cpdd {
+  background-color: #EFEFEF;
+  width:158px;
+}
+.dd_item1 {
+  height: 72px;
+}
+
+.dd_item3 {
+  height: 52px;
+}
+
+.dd_item2 {
+  height: 322px;
+}
+
+.cp_icon {
+  width: 40px;
+  height: 40px;
+}
+
+.cp_icon:hover {
+background-color: #E9E9E9;
+}
+
+.cp_btn {
+  width: 28px;
+  height: 28px;
+  background-color: #bf0420;
+}
+.cpcol_right {
+  width: 489px;
+}
+
+.cpcol_left {
+  width: 311px;
+}
+
+.cp_upload {
+  width: 271px;
+  height: 494px;
+}
+
+.cp_textarea1, .cp_textarea2, .cp_textarea3 {
+  background-color: #FFFFFF;
+  resize: none;
+  box-shadow: none !important;
+  height: 50px;
+  width: 449px;
+  outline: none;
+  scroll-behavior: smooth;
+}
+
+.cp_textarea1 {
+  font-size: 30px;
+}
+
+.cp_textarea2 {
+  font-size: 17px;
+}
+
+.cp_textarea3 {
+  font-size: 20px;
+}
+
+.cpbtntop {
+  width: 40px;
+  height: 60px;
+  top:25px;
+  right: 20px;
+}
+
+.cpbtnbot {
+  width: 40px;
+  height: 60px;
+  background-color: #E2E2E2;
+  top:125px;
+  right:60px;
+}
+
+.cp_upload_btn {
+  width: 271px;
+  height: 48px;
+  background-color: #E2E2E2;
+  outline: none;
+}
+
+.cp_upload_btn:hover {
+  background-color: #c5c2c2;
 }

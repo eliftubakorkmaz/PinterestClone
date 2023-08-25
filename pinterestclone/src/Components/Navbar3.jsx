@@ -65,15 +65,15 @@ export default function Navbar() {
             </li>
           </ul>
 
-          <form className="d-flex flex-grow-1 ">
+          <form className="d-flex flex-grow-1">
             <button
-              className="btn btn-outline-dark border-end-0 rounded-0 rounded-start-5"
+              className="btn border-end-0 rounded-0 rounded-start-5 navsearch1"
               type="submit"
             >
               <i className="fa-solid fa-magnifying-glass"></i>
             </button>
             <input
-              className="form-control me-2 border-start-0 border-dark rounded-0 rounded-end-5"
+              className="form-control me-2 border-start-0 border-0 rounded-0 rounded-end-5 navsearch1"
               type="search"
               placeholder="Search"
               aria-label="Search"
@@ -81,7 +81,7 @@ export default function Navbar() {
           </form>
 
           <ul className="navbar-nav ">
-            <li className="nav-item roundcontainer dropdown-start">
+            <li className="nav-item roundcontainer">
               <a
                 className="nav-link roundcontainer d-flex justify-content-center align-items-center"
                 id="navbarDropdownCreate1"
@@ -93,7 +93,7 @@ export default function Navbar() {
                 <i className="fas fa-bell fa"></i>
               </a>
               <ul
-                className="dropdown-menu rounded-4 dropdown1"
+                className="dropdown-menu rounded-4 dropdown1 dropdown-menu-end"
                 aria-labelledby="navbarDropdownCreate1"
               >
                 <li>
@@ -141,7 +141,7 @@ export default function Navbar() {
               </ul>
             </li>
 
-            <li className="nav-item roundcontainer dropdown-start">
+            <li className="nav-item roundcontainer">
               <a
                 className="nav-link roundcontainer d-flex justify-content-center align-items-center"
                 id="navbarDropdownCreate2"
@@ -153,7 +153,7 @@ export default function Navbar() {
                 <i className="fa-solid fa-comment-dots fa"></i>
               </a>
               <ul
-                className="dropdown-menu rounded-4 dropdown1"
+                className="dropdown-menu rounded-4 dropdown1 dropdown-menu-end"
                 aria-labelledby="navbarDropdownCreate2"
               >
                 <li>
@@ -197,7 +197,7 @@ export default function Navbar() {
                 </span>
               </a>
             </li>
-            <li className="nav-item dropdown-start dropdowncont m-auto">
+            <li className="nav-item dropdowncont m-auto">
               <a
                 className="nav-link dropdown-toggle fa"
                 href="#"
@@ -207,7 +207,7 @@ export default function Navbar() {
                 aria-expanded="false"
               ></a>
               <ul
-                className="dropdown-menu rounded-4"
+                className="dropdown-menu rounded-4 dropdown-menu-end"
                 aria-labelledby="navbarDropdownMore"
               >
                 <li>
